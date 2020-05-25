@@ -150,7 +150,7 @@ Mając dany adres hosta i maskę znajdź:
 
 2. 
   * Podziel sieć ``172.16.0.0/16`` na 6 równych podsieci. /19
-  | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
+| Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
 | ----------- | -----------  | ----------- |
 | ``172.16.0.0``| 172.16.0.1 - 172.16.31.254 | 172.16.31.255 |
 | ``172.16.32.0``| 172.16.32.1 - 172.16.63.254 | 172.16.63.255 |
@@ -161,7 +161,7 @@ Mając dany adres hosta i maskę znajdź:
 
 3. 
   * Podziel sieć ``192.168.1.0/24``, tak aby każda podsieć miała 11 użytkowników. /28
-  | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
+| Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
 | ----------- | -----------  | ----------- |
 | ``192.168.1.0``| 192.168.1.1 - 192.168.1.14 | 192.168.1.15 |
 | ``192.168.1.16``| 192.168.1.17 - 192.168.1.30 | 192.168.1.31 |
@@ -187,7 +187,7 @@ Mając dany adres hosta i maskę znajdź:
     * C – 3 000 użytkowników
     * D – 500 użytkowników
     * E – 2 użytkowników.
-    | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
+| Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
 | ----------- | -----------  | ----------- |
 | ``10.0.0.0``| 10.0.0.1 - 10.1.255.254 | 10.1.255.255 | A - /15
 | ``10.2.0.0``| 10.2.0.1 - 10.2.63.254 | 10.2.63.255 |  B - /18
