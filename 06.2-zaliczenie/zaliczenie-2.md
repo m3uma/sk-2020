@@ -24,3 +24,5 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
  * Adresację linków pomiędzy routerami
  * Tablice routingów na poszczególnych routerach
  
+ ![zadanie 2](m3uma_6b.png)
+ 
