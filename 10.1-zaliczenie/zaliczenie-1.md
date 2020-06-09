@@ -24,11 +24,19 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
 ## Zawartość dokumentacji
 
  * Charakterystyka rozwiazania 
+ 
+ Wykorzystano serwer DHCP do automatycznego przydzielania adresów z puli 192.168.100.100 - 192.168.103.254, drukarce ustawiono stały adres IP - 192.168.100.200. Serwer pełni również rolę routera o stałym adresie IP 192.168.100.1. Wprowadzono translacje adresów na nazwy domenowe dla drukarki, routera oraz erp przy użyciu serwera DNS, by były bardziej zrozumiałe dla przeciętnego użytkownika. Cała sieć 192.168.100.0/22 łączy się z siecią rozległą przy wykorzystaniu bramy NAT.
+ 
  * Adresy sieci IP
  
  ![zadanie 1](zdj0.png)
  
  * Oprogramowanie wykorzystane do realizacji poszczególnych wymagań
+ 
+      * serwer DHCP - dhcpd
+      * serwer DNS - dnsmasq
+      * brama NAT - iptables
+      
  * Kluczowa konfiguracja oprogramowania pozwalająca na odtworzenie stanu po reinstalacji środowiska
     1. Konfiguracja NAT z iptables
     
