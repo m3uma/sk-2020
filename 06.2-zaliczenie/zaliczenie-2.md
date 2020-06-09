@@ -24,5 +24,27 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
  * Adresację linków pomiędzy routerami
  * Tablice routingów na poszczególnych routerach
  
+ | Siec   | Adres sieci | Host min     | Host max      | Adres rozgłoszeniowy |
+| -------------     |:-------------: | -----:       | -----:        | -----:    |
+|   LAN1       | 192.168.0.0 | 192.168.0.1   | 192.168.3.254 | 192.168.3.255  |
+|   LAN2     | 192.168.4.0 |   192.168.4.1  | 192.168.7.254 | 192.168.7.255 |
+|   LAN3   | 192.168.8.0 | 192.168.8.1 | 192.168.11.254 | 192.168.11.255 |
+
+LAN2
+
+| Podsiec   | Adres podsieci | Host min     | Host max      | Adres rozgłoszeniowy |
+| -------------     |:-------------: | -----:       | -----:        | -----:    |
+|   LAN2.1       | 192.168.4.0 | 192.168.4.1   | 192.168.4.254 | 192.168.4.255  |
+|   LAN2.2    | 192.168.5.0 |   192.168.5.1  | 192.168.5.254 | 192.168.5.255 |
+|   LAN2.3   | 192.168.6.0 | 192.168.6.1 | 192.168.6.254 | 192.168.6.255 |
+ 
+ LAN3
+
+| Podsiec   | Adres podsieci | Host min     | Host max      | Adres rozgłoszeniowy |
+| -------------     |:-------------: | -----:       | -----:        | -----:    |
+|   LAN3.1       | 192.168.8.0 | 192.168.8.1   | 192.168.9.254 | 192.168.9.255  |
+|   LAN3.2    | 192.168.10.64 |   192.168.10.65  | 192.168.10.78 | 192.168.10.79 |
+|   LAN3.3   | 192.168.10.0 | 192.168.10.1 | 192.168.10.62 | 192.168.10.63 |
+
  ![zadanie 2](m3uma_6b.png)
  
