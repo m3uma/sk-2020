@@ -25,25 +25,43 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
 
  * Charakterystyka rozwiazania 
  * Adresy sieci IP
+ 
  ![zadanie 1](zdj0.png)
+ 
  * Oprogramowanie wykorzystane do realizacji poszczególnych wymagań
  * Kluczowa konfiguracja oprogramowania pozwalająca na odtworzenie stanu po reinstalacji środowiska
     1. Konfiguracja NAT z iptables
+    
     ![zadanie 1](zdj1.png)
+    
     2. Konfiguracja DHCP
+    
     ![zadanie 1](zdj2.png)
+    
     3. Konfiguracja DNS
+    
     ![zadanie 1](zdj3.png)
+    
     4. Konfiguracja interfejsów sieciowych
+    
     SERWER
+    
     ![zadanie 1](zdj4_1.png)
+    
     DRUKARKA
+    
     ![zadanie 1](zdj4_2.png)
+    
     URZĄDZENIE 1
+    
     ![zadanie 1](zdj4_3.png)
+    
     URZĄDZENIE 2
+    
     ![zadanie 1](zdj4_4.png)
+    
     5. Efekty
+    
     ![zadanie 1](zdj5_1.png)
     ![zadanie 1](zdj5_2.png)
     ![zadanie 1](zdj5_3.png)
